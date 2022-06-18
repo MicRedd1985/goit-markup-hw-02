@@ -15,7 +15,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     letter-spacing: 0.03em;
-    background-color: #ffffff;
+    background-color: var(--secondary-text-color)
     color: var(--primary-text-color);
 }
 
@@ -55,7 +55,7 @@ body {
 .header-link .link {
     text-decoration: none;
     font-weight: 500;
-    font-size: 14px;
+
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--title-text-color);
@@ -70,14 +70,14 @@ body {
 .contact-link .link {
     text-decoration: none;
     font-weight: 500;
-    font-size: 14px;
+
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
 }
 
 /* main */
-.hidden {
+.visually-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -110,7 +110,7 @@ body {
   
 
     text-align: center;
-    letter-spacing: 0.03em;
+   
     background-color: var(--second-bcg-color);
     color: var(--title-text-color);
 }
@@ -131,7 +131,7 @@ body {
 
 
 .project-title {
-    font-weight: 700;
+    
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
@@ -140,11 +140,11 @@ body {
 
 
 .project-text {
-    font-weight: 400;
+   
     font-size: 16px;
     line-height: 1.87;
     
-    letter-spacing: 0.03em;
+    
 }
 
 .hero {
@@ -196,42 +196,40 @@ body {
 
 .skill-list .skill-title {
     
-    font-weight: 700;
+
     font-size: 14px;
     line-height: 1.14;
-    letter-spacing: 0.03em;
+    
     text-transform: uppercase;
     color: var(--title-text-color);
 }
 
 
 .skill-list .skill-text {
-    font-weight: 400;
-    font-size: 14px;
+     
     line-height: 1.71;
-    letter-spacing: 0.03em;
-}
+
+   }
+
+
+.section-title {
+       font-weight: 700;
+       font-size: 36px;
+       line-height: 1.16;
+       text-align: center;
+
+       color: var(--title-text-color);
+   }
+
 
 /* works */
-
-.work .work-title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 42px;
-    text-align: center;
-    letter-spacing: 0.03em;
-
-
-    color: var(--title-text-color);
-}
 
 
 .work-list {
     list-style: none;
 }
 
-
-/* team */
+  /* team */
 
 
 .team {
@@ -243,39 +241,25 @@ body {
     list-style: none;
 }
 
-
-.team .team-title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: var(--title-text-color);
-}
-
-
 .team .team-name {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
     /* identical to box height */
-
-
     text-align: center;
-    letter-spacing: 0.03em;
     color: var(--title-text-color);
 }
 
 
 .team .team-job {
-    font-weight: 400;
+    
     font-size: 16px;
     line-height: 1.18;
     /* identical to box height */
 
 
     text-align: center;
-    letter-spacing: 0.03em;
+    
 }
 
 /* footer */
@@ -299,10 +283,10 @@ body {
 
 .footer-link .link {
     text-decoration: none;
-    font-weight: 400;
-    font-size: 14px;
+   
+    
     line-height: 1.71;
-    letter-spacing: 0.03em;
+   
     color: rgba(255, 255, 255, 0.6);
 }
 
