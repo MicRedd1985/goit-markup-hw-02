@@ -15,7 +15,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     letter-spacing: 0.03em;
-    background-color: var(--secondary-text-color)
+    background-color: var(--secondary-text-color);
     color: var(--primary-text-color);
 }
 
@@ -102,7 +102,7 @@ body {
 .buttons .button {
     cursor: pointer;
     text-decoration: none;
-    font-family: 'Roboto';
+    font-family: inherit;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -120,6 +120,11 @@ body {
 .buttons .button:focus {
     background-color: var(--link-color);
     color: var(--secondary-text-color);
+}
+
+.buttons .button.active {
+    background-color: var(--link-color);
+        color: var(--secondary-text-color);
 }
 
 /* projects */
@@ -301,10 +306,7 @@ body {
 }
 
 
-.map-link:hover,
-.map-link:focus {
-    color: var(--link-color);
-}
+
 
 
 .footer-content {
